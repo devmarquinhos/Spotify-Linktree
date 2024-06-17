@@ -10,6 +10,8 @@ body {
     background-color: #141414;
 }
 
+/* Header -> Spotify embbed */
+
 header {
     margin: 24px;
 }
@@ -53,8 +55,20 @@ header {
     font-size: 8px;
 }
 
-
 img {
     width: 100px;
-    
+}
+
+/* Self Intro Content */
+
+#self-intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    margin: 8px;
+}
+
+.p-text {
+    color: #9400D3;
 }
