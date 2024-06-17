@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    color: #f1f1f1
+}
+
+body {
+    background-color: #141414;
+}
+
+header {
+    margin: 24px;
+}
+
+#photo-spotify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.photo {
+    padding: 16px;
+    background-color: #242424;
+    border-radius: 12px;
+    height: 100px;
+    width: 100px;
+}
+
+.photo:hover {
+    transform: scale(1.1)
+}
+
+#album {
+    height: 100%;
+    border-radius: 12px;
+}
+
+.spotify-embed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #242424;
+    border-radius: 12px;
+}
+
+#album-info {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#album-info h6 {
+    font-weight: 300;
+    font-size: 8px;
+}
+
+
+img {
+    width: 100px;
+    
+}
